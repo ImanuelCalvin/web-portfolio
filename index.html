@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Saya</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="progressBar"></div>
+
+  <header class="navbar">
+  <div class="logo">Portofolio</div>
+
+  <nav id="navMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#projects">Project</a>
+    <a href="#skills">Keahlian</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <button id="themeToggle">Mode</button>
+
+  <div class="menu-toggle" id="menuToggle">
+    ☰
+  </div>
+</header>
+
+
+  <section id="home" class="hero reveal">
+
+    <div class="hero-wrapper">
+
+      <div class="hero-text parallax">
+        <p class="pretitle">Welcome to My Portfolio</p>
+
+        <h1>Halo, Saya <span id="typing"></span></h1>
+
+        <p class="subtitle">
+          Seorang Mahasiswa yang tertarik pada teknologi dan pengembangan aplikasi.
+        </p>
+      </div>
+
+      <div class="hero-photo">
+        <img src="img/image.png" alt="Foto Saya">
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="about" class="section reveal">
+
+    <h2 class="section-title">About Me</h2>
+
+
+    <div class="about-wrapper">
+
+      <!-- ===== PROFILE CARD ===== -->
+      <div class="about-card">
+        <div class="about-header">
+          <img src="img/image.png" class="about-avatar">
+
+          <div>
+            <h3 class="about-name">Imanuel Calvin Hasian</h3>
+            <p class="about-role">Web & Mobile Developer</p>
+            <p class="about-location">📍 Indonesia, Bekasi</p>
+          </div>
+        </div>
+
+        <div class="about-status">
+          <span class="status-dot"></span>
+          Available for Work
+        </div>
+
+
+        <p class="about-intro">
+          Saya adalah seorang mahasiswa dengan minat besar pada pengembangan web dan mobile. Saya terbiasa bekerja
+          dengan teknologi modern untuk membangun aplikasi yang fungsional, terstruktur, dan berorientasi pada
+          pengalaman pengguna. Saya senang mempelajari hal baru, beradaptasi dengan perkembangan teknologi, serta
+          berkolaborasi dalam tim untuk menghasilkan solusi digital yang efektif dan bernilai.
+        </p>
+      </div>
+
+
+      <!-- ===== JOURNEY / TIMELINE ===== -->
+      <div class="about-timeline">
+
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>2023 - Mulai Belajar Programming</h4>
+            <p>Memahami dasar HTML, CSS, dan JavaScript</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>2024 - Membangun Project</h4>
+            <p>Membuat website, aplikasi, dan tugas akademik</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>2024 - Pengalaman Organisasi & Event</h4>
+            <p>Aktif berkontribusi dalam berbagai kegiatan kampus</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>2025 - Mulai Belajar Mobile Programming</h4>
+            <p>Memahami dasar penggunaan Kotlin</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span class="dot"></span>
+          <div>
+            <h4>2025 - Ingin fokus Menjadi Developer Profesional</h4>
+            <p>Meningkatkan kemampuan teknis dan softskill</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ===== QUICK STATS ===== -->
+      <div class="about-stats">
+
+        <div class="stat">
+          <h3>6</h3>
+          <p>Project</p>
+        </div>
+
+        <div class="stat">
+          <h3>2+</h3>
+          <p>Tahun Belajar</p>
+        </div>
+
+        <div class="stat">
+          <h3>9</h3>
+          <p>Pengalaman Event</p>
+        </div>
+
+      </div>
+
+
+      <!-- ===== CURRENTLY LEARNING ===== -->
+      <div class="about-learning">
+        <h4>Saat Ini Sedang Dipelajari</h4>
+
+        <div class="tag-list">
+          <span class="tag">Laravel</span>
+          <span class="tag">React</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">C#</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Unity</span>
+        </div>
+      </div>
+
+
+      <!-- ===== CALL TO ACTION ===== -->
+      <div class="about-cta">
+        <p>
+          Saya selalu terbuka untuk peluang kerja sama, diskusi, atau project baru.
+        </p>
+
+        <button onclick="scrollToSection('contact')">
+          Hubungi Saya
+        </button>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="experience" class="section reveal">
+    <h2 class="section-title">Pengalaman</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/feelflow.png" class="exp-logo">
+          <h3>FEEL D FLOW 2023</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/uvc.png" class="exp-logo">
+          <h3>UVC 2023</h3>
+          <span class="badge">Accomodation Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/umnfest.png" class="exp-logo">
+          <h3>UMN Festival 2024</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/eco.png" class="exp-logo">
+          <h3>UMN ECO 2025</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/mistermiss.png" class="exp-logo">
+          <h3>Mister & Miss UMN 2025</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/pemira.png" class="exp-logo">
+          <h3>PEMIRA 2025</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/alunora.png" class="exp-logo">
+          <h3>ALUNORA 2025</h3>
+          <span class="badge">Accomodation Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/aura.png" class="exp-logo">
+          <h3>AURA UMN 2025</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-inner">
+          <img src="img/gerilya.png" class="exp-logo">
+          <h3>GERILYA UMN 2025</h3>
+          <span class="badge">Security Staff</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <h2 class="section-title">Project</h2>
+
+    <div class="card-container">
+
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/monertracker.png" class="project-thumb">
+
+          <h3>MoneyTracker - Money Tracker Website</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Bertugas sebagai front-end developer dengan menyusun struktur halaman menggunakan HTML, mengatur tampilan
+            responsif dengan CSS, serta mengimplementasikan JavaScript untuk interaksi pengguna, validasi input, dan
+            elemen dinamis agar aplikasi tetap user-friendly dan mudah digunakan.
+
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/shmgK-YuHeA" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/todolist.png" class="project-thumb">
+
+          <h3>ToDoList APP - To Do List Website</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Mengembangkan halaman web dengan struktur HTML yang rapi dan mudah dikembangkan, serta melakukan integrasi
+            sistem dengan database MySQL. Mencakup perancangan tabel, pengelolaan data, dan penghubungan
+            frontend–backend agar alur data berjalan lancar, aman, dan stabil.
+
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/UGrkRvN-pO8" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/gala-preview.png" class="project-thumb">
+
+          <h3>GalaSphere — Event Management Website</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Merancang dan menyusun layout halaman yang informatif dan mudah dipahami, mengimplementasikan desain
+            antarmuka menggunakan HTML, CSS, dan komponen frontend, serta memastikan tampilan responsif di berbagai
+            perangkat. Fokus pada konsistensi visual sesuai brand, pengalaman pengguna yang intuitif, dan kolaborasi
+            dengan tim untuk menyelaraskan fungsi dan desain.
+
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/axSJjoATf4g" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/berkat.png" class="project-thumb">
+
+          <h3>BERKAT SERVICES - Prototype Bengkel Services</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Bertanggung jawab merancang dan mengembangkan prototype aplikasi di Figma, mulai dari wireframe hingga
+            high-fidelity design. Menyusun layout, user flow, dan komponen UI sesuai kebutuhan pengguna, serta
+            mengoptimalkan tampilan dan usability agar prototype siap digunakan sebagai acuan pengembangan sistem.
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">Figma</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/PUC5HvKFqUE" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/game.png" class="project-thumb">
+
+          <h3>The Killer Of Chainsaw Man - Unity Game</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Terlibat dalam perancangan gameplay dengan membuat level stage yang terstruktur dan immersive. Bertanggung
+            jawab pada visual effect, sound effect termasuk 3D sound, serta pengaturan lighting untuk membangun atmosfer
+            game. Juga merancang tampilan win/lose page sebagai bagian dari alur permainan yang interaktif.
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">Unity</span>
+            <span class="tag">C#</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/9xh7zOtxrLU" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card project-card">
+        <div class="card-inner">
+
+          <img src="img/app.png" class="project-thumb">
+
+          <h3>BirthdayReminder - Android Application</h3>
+          <span class="proj-badge">Featured</span>
+          <p>
+            Bertanggung jawab dalam pengembangan arsitektur aplikasi menggunakan Kotlin dengan pendekatan MVVM,
+            termasuk pengelolaan data dan alur asynchronous menggunakan Coroutines dan Flow. Selain itu, saya juga
+            terlibat dalam pembuatan elemen UI dasar menggunakan Jetpack Compose untuk memastikan desain tetap konsisten
+            dan mudah dikembangkan.
+          </p>
+
+          <div class="project-meta">
+            <span class="tag">Kotlin</span>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://youtu.be/esPWN3F0fGw" class="project-btn" target="_blank">
+              Lihat Demo
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <h2 class="section-title">Keahlian</h2>
+
+    <div class="skills-list">
+
+      <div class="skill" data-rate="5">
+        <div class="skill-head">
+          <img src="img/html.png" class="skill-icon">
+          <span>HTML</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Menguasai penulisan struktur HTML yang rapi, jelas, dan mudah dikembangkan<br>
+          - Terbiasa menggunakan semantic HTML untuk meningkatkan aksesibilitas dan SEO<br>
+          - Mampu membangun struktur halaman web yang scalable untuk kebutuhan pengembangan lanjutan<br>
+          - Memahami standar best practice dalam penulisan kode frontend
+        </div>
+      </div>
+
+      <div class="skill" data-rate="5">
+        <div class="skill-head">
+          <img src="img/css.png" class="skill-icon">
+          <span>CSS</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Menguasai styling tampilan website menggunakan CSS secara terstruktur dan konsisten<br>
+          - Terbiasa menerapkan responsive design untuk berbagai ukuran layar dan perangkat<br>
+          - Memahami layouting modern seperti Flexbox dan Grid<br>
+          - Mampu menjaga konsistensi visual sesuai konsep brand dan UI guideline<br>
+          - Berpengalaman mengoptimalkan tampilan agar tetap ringan, rapi, dan user-friendly
+
+        </div>
+      </div>
+
+      <div class="skill" data-rate="4">
+        <div class="skill-head">
+          <img src="img/js.png" class="skill-icon">
+          <span>JavaScript</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Mampu mengimplementasikan JavaScript untuk mendukung interaksi dan logika pada website<br>
+          - Terbiasa menggunakan DOM manipulation untuk mengelola elemen halaman secara dinamis<br>
+          - Memahami konsep dasar seperti variabel, fungsi, event handling, dan asynchronous process<br>
+          - Dapat mengintegrasikan JavaScript dengan HTML dan CSS untuk membangun fitur yang interaktif
+        </div>
+      </div>
+
+      <div class="skill" data-rate="4">
+        <div class="skill-head">
+          <img src="img/kotlin.png" class="skill-icon">
+          <span>Kotlin</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Mampu menggunakan Kotlin untuk pengembangan aplikasi Android secara efisien<br>
+          - Memahami konsep OOP, fungsi, dan penggunaan collection dalam Kotlin<br>
+          - Terbiasa menerapkan struktur project yang rapi serta integrasi dengan library Android
+        </div>
+      </div>
+
+      <div class="skill" data-rate="3">
+        <div class="skill-head">
+          <img src="img/unity.png" class="skill-icon">
+          <span>Unity</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Mampu menggunakan Unity untuk membangun game dengan mekanik dasar<br>
+          - Terbiasa mengelola scene, objek, dan komponen game<br>
+          - Memahami dasar scripting C# untuk interaksi dan alur gameplay<br>
+          - Masih dalam tahap pengembangan pada optimasi sistem dan fitur lanjutan Unity
+        </div>
+      </div>
+
+      <div class="skill" data-rate="3">
+        <div class="skill-head">
+          <img src="img/react.png" class="skill-icon">
+          <span>React Js</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Memahami dasar konsep React seperti component, props, dan state<br>
+          - Mampu membangun tampilan antarmuka sederhana menggunakan React<br>
+          - Terbiasa mengintegrasikan React dengan HTML, CSS, dan API dasar<br>
+          - Mulai mempelajari pengelolaan state yang lebih kompleks dan struktur project React
+        </div>
+      </div>
+
+      <div class="skill" data-rate="2">
+        <div class="skill-head">
+          <img src="img/tcss.png" class="skill-icon">
+          <span>Tailwind CSS</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Memahami dasar penggunaan utility class pada Tailwind CSS untuk styling tampilan<br>
+          - Mampu menerapkan styling sederhana menggunakan Tailwind pada komponen frontend<br>
+          - Masih dalam tahap pengembangan kemampuan untuk memanfaatkan fitur lanjutan dan konfigurasi Tailwind
+        </div>
+      </div>
+
+      <div class="skill" data-rate="3">
+        <div class="skill-head">
+          <img src="img/laravel.png" class="skill-icon">
+          <span>Laravel</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Memahami dasar penggunaan Laravel untuk membangun aplikasi berbasis web<br>
+          - Mampu mengelola routing, controller, dan view dalam arsitektur MVC<br>
+          - Terbiasa menggunakan database dan Eloquent ORM untuk pengelolaan data<br>
+          - Dapat membangun fitur dasar seperti autentikasi dan CRUD
+        </div>
+      </div>
+
+      <div class="skill" data-rate="4">
+        <div class="skill-head">
+          <img src="img/python.png" class="skill-icon">
+          <span>Python</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Mampu menggunakan Python untuk pengembangan aplikasi, pemrosesan data, dan automasi<br>
+          - Menguasai konsep dasar seperti OOP, fungsi, modul, dan exception handling<br>
+          - Terbiasa bekerja dengan library Python untuk berbagai kebutuhan pengembangan<br>
+          - Dapat membangun program yang terstruktur, efisien, dan mudah dipelihara
+        </div>
+      </div>
+
+      <div class="skill" data-rate="3">
+        <div class="skill-head">
+          <img src="img/sql.png" class="skill-icon">
+          <span>MySQL</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Memahami dasar perancangan dan pengelolaan database menggunakan MySQL<br>
+          - Mampu membuat tabel, relasi sederhana, serta melakukan query SELECT, INSERT, UPDATE, dan DELETE<br>
+          - Terbiasa menggunakan MySQL dalam integrasi dengan aplikasi web<br>
+          - Masih dalam tahap pengembangan pada optimasi query dan desain database tingkat lanjut
+        </div>
+      </div>
+
+      <div class="skill" data-rate="4">
+        <div class="skill-head">
+          <img src="img/figma.png" class="skill-icon">
+          <span>Figma</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Mampu merancang UI/UX mulai dari wireframe hingga high-fidelity design menggunakan Figma<br>
+          - Terbiasa menyusun layout, komponen, dan prototyping interaktif<br>
+          - Memahami konsistensi visual, grid system, dan prinsip desain modern<br>
+          - Dapat berkolaborasi dalam tim melalui fitur sharing dan design system
+        </div>
+      </div>
+
+      <div class="skill" data-rate="3">
+        <div class="skill-head">
+          <img src="img/csharp.png" class="skill-icon">
+          <span>C#</span>
+        </div>
+        <div class="stars"><span></span><span></span><span></span><span></span><span></span></div>
+
+        <div class="skill-desc">
+          - Memahami dasar pemrograman C# seperti variabel, fungsi, dan konsep OOP dasar<br>
+          - Mampu menerapkan C# untuk kebutuhan logika sederhana, termasuk pada Unity<br>
+          - Masih dalam tahap pengembangan kemampuan untuk fitur dan konsep tingkat lanjut
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificate" class="section reveal">
+    <h2 class="section-title">Certificate</h2>
+
+    <div class="cert-carousel">
+
+      <button class="cert-btn prev">&#10094;</button>
+
+      <div class="cert-track">
+
+        <!-- CARD 1 -->
+        <div class="cert-card">
+          <div class="cert-img-wrap">
+            <img src="img/751e2298-9f7e-4bb7-bf02-493059b0ace2.jpg" class="cert-img">
+
+            <div class="cert-info">
+              <h3>SoloLearn - Web Development</h3>
+              <p>Menyelesaikan program pembelajaran web development.</p>
+              <span class="cert-year">2025, 31 December</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="cert-card">
+          <div class="cert-img-wrap">
+            <img src="img/b5da7563-8d0e-42b6-9f03-d1650f4807b2.jpg" class="cert-img">
+
+            <div class="cert-info">
+              <h3>SoloLearn - Introduction To Python</h3>
+              <p>Menyelesaikan program pembelajaran Introduction To Python.</p>
+              <span class="cert-year">2025, 25 March</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="cert-card">
+          <div class="cert-img-wrap">
+            <img src="img/6c7be488-2dcc-4d4e-8913-559caf83454e.jpg" class="cert-img">
+
+            <div class="cert-info">
+              <h3>SoloLearn - Python Intermediate</h3>
+              <p>Menyelesaikan program pembelajaran Python Intermediate.</p>
+              <span class="cert-year">2025, 10 June</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-wrap">
+            <img src="img/4a0e4904-bd06-4021-83be-165261eaa79f.jpg" class="cert-img">
+
+            <div class="cert-info">
+              <h3>SoloLearn - Introduction To JavaScript</h3>
+              <p>Menyelesaikan program pembelajaran Introduction To JavaScript.</p>
+              <span class="cert-year">2026, 1 January</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="cert-btn next">&#10095;</button>
+    </div>
+
+    <div class="cert-dots"></div>
+
+  </section>
+
+  <section id="contact" class="section reveal">
+    <h2 class="section-title">Kontak Saya</h2>
+
+    <div class="contact-list">
+      <!-- INSTAGRAM -->
+      <a class="contact-item" href="https://instagram.com/imanuell.vin" target="_blank">
+        <div class="contact-icon ig">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 2A2.5 2.5 0 1 1 9.5 12 2.5 2.5 0 0 1 12 9.5zm4.75-3.75a1 1 0 1 0 1 1 1 1 0 0 0-1-1z" />
+          </svg>
+        </div>
+        <div>
+          <h4>Instagram</h4>
+          <p>@imanuell.vin</p>
+        </div>
+      </a>
+
+      <!-- LINKEDIN -->
+      <a class="contact-item" href="https://www.linkedin.com/in/imanuel-calvin-hasian-a651a6289/" target="_blank">
+        <div class="contact-icon li">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M4.98 3.5A2.49 2.49 0 1 0 5 8.48a2.49 2.49 0 0 0-.02-4.98zM3 9h4v12H3zm7 0h3.8v1.64h.05c.53-.95 1.8-1.96 3.7-1.96C21.1 8.68 22 11 22 14.6V21h-4v-5.4c0-1.28-.02-2.93-1.78-2.93-1.78 0-2.05 1.39-2.05 2.84V21h-4z" />
+          </svg>
+        </div>
+        <div>
+          <h4>LinkedIn</h4>
+          <p>Imanuel Calvin Hasian</p>
+        </div>
+      </a>
+
+      <!-- EMAIL -->
+      <a class="contact-item" href="mailto:imanuelkalvin@gmail.com">
+        <div class="contact-icon mail">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v.01L12 13l8-6.99V6H4zm0 12h16V9l-8 7L4 9v9z" />
+          </svg>
+        </div>
+        <div>
+          <h4>Email</h4>
+          <p>imanuelkalvin@gmail.com</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Imanuel Calvin Hasian</p>
+  </footer>
+
+  <div class="cursor-glow"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
